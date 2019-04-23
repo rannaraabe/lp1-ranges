@@ -1,18 +1,3 @@
-# Intro
-
-In this programming project, **IntRanges** you should implement all the items in the assignment.
-For each item, create a set of google tests to prove that they are correct.
-But don't worry, they are already set up in the `CMakeLists.txt` script.
-
-After finishing the first part of the assigment, you will be able to generate your first **library**, which should
-contain the implementation of all functions described in the assignment.
-Then, your library, `IntRangelib.a`, might be linked to any application that needs to uses the functions
-defines in the library, such as `negate()`, `rotate()`, etc.
-
-To simulate that, you should proceed to the second part of the assignment in which you shall
-implement a `driver` app (executable), just to demonstrate some of the funtions from `IntRange` library.
-
-
 # Compiling
 
 This project may be compiled with [CMake](https://cmake.org).
@@ -67,9 +52,3 @@ Just run as usual (assuming `$` is the terminal prompt):
 ```
 $ ./build/driver_int_ranges
 ```
-
-# TODO
-
-Notice that the code provided is **incomplete**!
-You must implement all the functions described in the assignment PDF, design and implement tests (inside `tests/main.cpp`) to
-make sure all the function are working correctly.
