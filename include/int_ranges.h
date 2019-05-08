@@ -22,6 +22,9 @@ namespace ir {
 	/// A funcao calcula e retorna o produto escalar entre dois vetores
 	value_type dot_product( const value_type *a_first, const value_type *a_last, const value_type *b_first );
 
+	/// A funcao 'compacta' os elementos do intervalo [first, last) e retorna um ponteiro para o elemento imediatamente posterior ao ultimo elemento compactado  
+	void compact( value_type *first, value_type *last );
+
 	/// A funcao copia os elementos do intervalo [first, last) para outro intervalo começando em 'd_first'
 	value_type * copy( const value_type * first, const value_type * last, value_type *d_first );
 

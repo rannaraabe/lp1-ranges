@@ -52,7 +52,7 @@ namespace ir {
 		return prod;
 	}
 
-	/// A funcao n sei 
+	/// A funcao 'compacta' os elementos do intervalo [first, last) e retorna um ponteiro para o elemento imediatamente posterior ao ultimo elemento compactado  
 	void compact( value_type *first, value_type *last )
 	{
 		value_type *aux = first;
